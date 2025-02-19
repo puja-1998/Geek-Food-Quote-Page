@@ -1,0 +1,14 @@
+.card-container{
+    display: flex;
+    box-shadow: 1px 1px 3px 2px gray;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}

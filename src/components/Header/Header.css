@@ -1,0 +1,74 @@
+/* .App-header {
+    margin: 10px 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+    position: fixed;
+    background-color: white;
+  } */
+  
+  .header-wrapper {
+    margin-bottom: 100px; /* Simulated bottom margin */
+}
+  .App-header {
+    width: calc(100% - 80px); /* Full width minus the margin you want */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+    position: fixed;
+    top: 0; /* Same as top margin */
+    left: 0; /* Same as left margin */
+    padding: 0 60px;
+    background-color: white;
+    z-index: 1000; /* Ensures it's above other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+/* right: 40px; Same as right margin */
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+  }
+  
+  .logo h1{
+    color: black;
+  }
+  
+  .tabs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+  }
+  
+  .tabs a{
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .tabs .home{
+    color: blue;
+  }
+  
+  .tabs a:hover{
+    color: blue;
+  }
+  
+  .getStartedBtn{
+    height: 40px;
+    width: 120px;
+    background-color: #1E40AF;
+    border-radius: 10px;
+    color: white;
+    border: none;
+  }
+  
